@@ -160,7 +160,7 @@ public class TimetableView extends LinearLayout {
 
             RelativeLayout.LayoutParams param = createStickerParam(schedule);
             tv.setLayoutParams(param);
-            tv.setPadding(10, 0, 10, 0);
+            tv.setPadding(10, -2, 10, 0);
             tv.setText(schedule.getClassTitle() + "\n" + schedule.getClassPlace());
             tv.setTextColor(Color.parseColor("#FFFFFF"));
             tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, DEFAULT_STICKER_FONT_SIZE_DP);
